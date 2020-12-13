@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{79DFE06F-29B3-465E-91A7-3E2BE59DA7E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsBasket.Models", "TicketsBasket.Models\TicketsBasket.Models.csproj", "{1D136007-BB3D-49E3-9F06-BFB4C5D53FF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D136007-BB3D-49E3-9F06-BFB4C5D53FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D136007-BB3D-49E3-9F06-BFB4C5D53FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D136007-BB3D-49E3-9F06-BFB4C5D53FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D136007-BB3D-49E3-9F06-BFB4C5D53FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D136007-BB3D-49E3-9F06-BFB4C5D53FF7} = {79DFE06F-29B3-465E-91A7-3E2BE59DA7E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03B5F7B-8790-452D-9489-DF797A189A75}
+	EndGlobalSection
+EndGlobal
