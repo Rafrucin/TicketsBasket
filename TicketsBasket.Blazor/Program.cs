@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
 namespace TicketsBasket
 {
@@ -17,12 +18,18 @@ namespace TicketsBasket
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddHttpClient("TicketsBasket.Api", client =>
+            {
+                client.BaseAddress = new Uri(builder.Configuration["ApiUrl"]);
+            }).AddHttpMessageHandler(sp => sp.GetRequiredService<AuthorizationMessageHandler>()
+                .ConfigureHandler(new[] { builder.Configuration["ApiUrl"] }, new[] { builder.Configuration["AzureAdB2C:Scope"] }));
+
+            builder.Services.AddTransient(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("TicketsBasket.Api"));
 
             builder.Services.AddMsalAuthentication(options =>
             {
                 builder.Configuration.Bind("AzureAdB2C", options.ProviderOptions.Authentication);
-                options.ProviderOptions.DefaultAccessTokenScopes.Add("https://RafsTicketsBasket.onmicrosoft.com/4b7c6e34-f916-489a-9ea6-d75bf40dc74f/Api.ReadWrite");
+                options.ProviderOptions.DefaultAccessTokenScopes.Add(builder.Configuration["AzureAdB2C:Scope"]);
             });
 
             await builder.Build().RunAsync();
