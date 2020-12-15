@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.SQLserver": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

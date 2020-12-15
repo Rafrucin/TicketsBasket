@@ -13,6 +13,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
+
+
 namespace TicketsBasket.Api
 {
     public class Startup
@@ -29,6 +32,8 @@ namespace TicketsBasket.Api
         {
             services.AddAuthentication(AzureADB2CDefaults.BearerAuthenticationScheme)
                 .AddAzureADB2CBearer(options => Configuration.Bind("AzureAdB2C", options));
+
+
 
             services.AddCors(options =>
             {

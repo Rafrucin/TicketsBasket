@@ -10,7 +10,7 @@ namespace TicketsBasket.Models.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
+             
         }
 
         public DbSet<Event> Events { get; set; }
@@ -44,6 +44,7 @@ namespace TicketsBasket.Models.Data
 
             modelBuilder.Entity<Event>().HasMany(p => p.Tickets).WithOne(p => p.Event).OnDelete(DeleteBehavior.NoAction);
 
+            modelBuilder.Entity<Event>().HasMany(p => p.WishlistEvents).WithOne(p => p.Event).OnDelete(DeleteBehavior.NoAction);
 
             base.OnModelCreating(modelBuilder);
         }
