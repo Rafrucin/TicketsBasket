@@ -7,10 +7,24 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureADB2C.UI" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TicketsBasket.Models\TicketsBasket.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SQLiteDB\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SQLiteDB\Models.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

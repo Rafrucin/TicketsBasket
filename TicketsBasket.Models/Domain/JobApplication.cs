@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TicketsBasket.Models.Domain
 {
-    public class JobApplication
+    public class JobApplication :Record
     {
 
         public JobApplication()

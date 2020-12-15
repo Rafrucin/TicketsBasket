@@ -1,0 +1,9 @@
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\bin\Debug\netstandard2.1\TicketsBasket.Models.deps.json
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\bin\Debug\netstandard2.1\TicketsBasket.Models.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\bin\Debug\netstandard2.1\TicketsBasket.Models.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\obj\Debug\netstandard2.1\TicketsBasket.Models.csprojAssemblyReference.cache
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\obj\Debug\netstandard2.1\TicketsBasket.Models.AssemblyInfoInputs.cache
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\obj\Debug\netstandard2.1\TicketsBasket.Models.AssemblyInfo.cs
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\obj\Debug\netstandard2.1\TicketsBasket.Models.csproj.CoreCompileInputs.cache
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\obj\Debug\netstandard2.1\TicketsBasket.Models.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Models\obj\Debug\netstandard2.1\TicketsBasket.Models.pdb

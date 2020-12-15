@@ -6,7 +6,7 @@ using TicketsBasket.Models.Domain;
 
 namespace TicketsBasket.Models.Data
 {
-    class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -24,27 +24,27 @@ namespace TicketsBasket.Models.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserProfile>().HasMany(p => Events).WithOne(p => p.UserProfile).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<UserProfile>().HasMany(k => k.Events).WithOne(k => k.UserProfile).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<UserProfile>().HasMany(p => p.WishlistEvents).WithOne(p => p.UserProfile).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<UserProfile>().HasMany(k => k.WishlistEvents).WithOne(k => k.UserProfile).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<UserProfile>().HasMany(p => p.Likes).WithOne(p => p.UserProfile).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<UserProfile>().HasMany(k => k.Likes).WithOne(k => k.UserProfile).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<UserProfile>().HasMany(p => p.Tickets).WithOne(p => p.UserProfile).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<UserProfile>().HasMany(k => k.Tickets).WithOne(k => k.UserProfile).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<UserProfile>().HasMany(p => p.ReceivedApplications).WithOne(p => p.Organizer).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<UserProfile>().HasMany(k => k.ReceivedApplications).WithOne(k => k.Organizer).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<UserProfile>().HasMany(p => p.SentApplications).WithOne(p => p.AppliedUser).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<UserProfile>().HasMany(k => k.SentApplications).WithOne(k => k.AppliedUser).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Event>().HasMany(p => p.EventTags).WithOne(p => p.Event).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Event>().HasMany(k => k.EventTags).WithOne(k => k.Event).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Event>().HasMany(p => p.EventImages).WithOne(p => p.Event).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Event>().HasMany(k => k.EventImages).WithOne(k => k.Event).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Event>().HasMany(p => p.Likes).WithOne(p => p.Event).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Event>().HasMany(k => k.Likes).WithOne(k => k.Event).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Event>().HasMany(p => p.Tickets).WithOne(p => p.Event).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Event>().HasMany(k => k.Tickets).WithOne(k => k.Event).OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Event>().HasMany(p => p.WishlistEvents).WithOne(p => p.Event).OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Event>().HasMany(k => k.WishlistEvents).WithOne(k => k.Event).OnDelete(DeleteBehavior.NoAction);
 
             base.OnModelCreating(modelBuilder);
         }
