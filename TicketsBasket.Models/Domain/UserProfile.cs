@@ -20,6 +20,9 @@ namespace TicketsBasket.Models.Domain
         [StringLength(25)]
         public string LastName { get; set; }
 
+        [StringLength(256)]
+        public string ProfilePicture { get; set; }
+
         [Required]
         [StringLength(25)]
         public string Email { get; set; }
@@ -31,6 +34,10 @@ namespace TicketsBasket.Models.Domain
         [Required]
         [StringLength(25)]
         public string City { get; set; }
+
+        [Required]
+        [StringLength(40)]
+        public string UserId { get; set; }
 
         public bool IsOrganizer { get; set; }
 

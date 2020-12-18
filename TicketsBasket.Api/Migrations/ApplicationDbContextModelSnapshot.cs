@@ -235,6 +235,15 @@ namespace TicketsBasket.Api.Migrations
                         .HasMaxLength(25)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("ProfilePicture")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.ToTable("UserProfiles");

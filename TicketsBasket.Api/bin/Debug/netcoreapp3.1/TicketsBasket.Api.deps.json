@@ -27,6 +27,7 @@
           "Microsoft.AspNetCore.Authentication.AzureADB2C.UI": "3.1.10",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
           "TicketsBasket.Models": "1.0.0",
+          "TicketsBasket.Repositories": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1649,6 +1650,17 @@
         },
         "compile": {
           "TicketsBasket.Models.dll": {}
+        }
+      },
+      "TicketsBasket.Repositories/1.0.0": {
+        "dependencies": {
+          "TicketsBasket.Models": "1.0.0"
+        },
+        "runtime": {
+          "TicketsBasket.Repositories.dll": {}
+        },
+        "compile": {
+          "TicketsBasket.Repositories.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4052,6 +4064,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "TicketsBasket.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketsBasket.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

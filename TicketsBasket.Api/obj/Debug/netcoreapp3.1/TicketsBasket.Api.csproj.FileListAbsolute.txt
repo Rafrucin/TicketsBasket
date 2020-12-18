@@ -91,3 +91,6 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Models.pdb
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\SQLiteDB\Models.db
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Repositories.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Repositories.pdb

@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TicketsBasket.Models.Data;
+using TicketsBasket.Api.Extensions;
 
 
 
@@ -31,26 +32,15 @@ namespace TicketsBasket.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication(AzureADB2CDefaults.BearerAuthenticationScheme)
-                .AddAzureADB2CBearer(options => Configuration.Bind("AzureAdB2C", options));
+            services.AddB2CAuthentication(Configuration);
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-            {
-                options.UseSqlite(Configuration.GetConnectionString("SqliteConnectionModels"), sqlOptions => 
-                { 
-                    sqlOptions.MigrationsAssembly("TicketsBasket.Api");
-                });
-            });
+            services.AddCors();
 
-            services.AddCors(options =>
-            {
-                options.AddPolicy("CorsPolicy", policy =>
-                {
-                    policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-                });
-            });
+            services.AddApplicationDatabaseContext(Configuration);
 
             services.AddControllers();
+
+            services.AddUnitOfWork();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

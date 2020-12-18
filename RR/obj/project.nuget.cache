@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3XwRHyfUfSHSIg64mQwV9Ji/oqtUlcLxHl9h/TQ9+8YP3F7W6DYjA6iiR+62TGmXQWWxTHvojB+V/3X9LPJUIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\RR\\RR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raf\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Raf\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

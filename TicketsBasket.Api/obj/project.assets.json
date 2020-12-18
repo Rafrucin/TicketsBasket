@@ -1774,6 +1774,19 @@
         "runtime": {
           "bin/placeholder/TicketsBasket.Models.dll": {}
         }
+      },
+      "TicketsBasket.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "TicketsBasket.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TicketsBasket.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketsBasket.Repositories.dll": {}
+        }
       }
     }
   },
@@ -6322,13 +6335,19 @@
       "type": "project",
       "path": "../TicketsBasket.Models/TicketsBasket.Models.csproj",
       "msbuildProject": "../TicketsBasket.Models/TicketsBasket.Models.csproj"
+    },
+    "TicketsBasket.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../TicketsBasket.Repositories/TicketsBasket.Repositories.csproj",
+      "msbuildProject": "../TicketsBasket.Repositories/TicketsBasket.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Authentication.AzureADB2C.UI >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
-      "TicketsBasket.Models >= 1.0.0"
+      "TicketsBasket.Models >= 1.0.0",
+      "TicketsBasket.Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6365,6 +6384,9 @@
           "projectReferences": {
             "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Models\\TicketsBasket.Models.csproj": {
               "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Models\\TicketsBasket.Models.csproj"
+            },
+            "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Repositories\\TicketsBasket.Repositories.csproj": {
+              "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Repositories\\TicketsBasket.Repositories.csproj"
             }
           }
         }

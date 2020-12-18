@@ -1,0 +1,12 @@
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\bin\Debug\netstandard2.1\TicketsBasket.Repositories.deps.json
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\bin\Debug\netstandard2.1\TicketsBasket.Repositories.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\bin\Debug\netstandard2.1\TicketsBasket.Repositories.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\bin\Debug\netstandard2.1\TicketsBasket.Models.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\bin\Debug\netstandard2.1\TicketsBasket.Models.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.csprojAssemblyReference.cache
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.AssemblyInfoInputs.cache
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.AssemblyInfo.cs
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.csproj.CopyComplete
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.pdb
