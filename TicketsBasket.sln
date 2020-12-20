@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsBasket", "TicketsBas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsBasket.Repositories", "TicketsBasket.Repositories\TicketsBasket.Repositories.csproj", "{3D148BCC-D036-416E-9B56-EF3DA07B460F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsBasket.Services", "TicketsBasket.Services\TicketsBasket.Services.csproj", "{7D6945FC-F59D-4540-8D37-4A6742AB60FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsBasket.Services", "TicketsBasket.Services\TicketsBasket.Services.csproj", "{7D6945FC-F59D-4540-8D37-4A6742AB60FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsBasket.Shared", "TicketsBasket.Shared\TicketsBasket.Shared.csproj", "{F3418F7F-9266-457E-A42C-24D584063794}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsBasket.Shared", "TicketsBasket.Shared\TicketsBasket.Shared.csproj", "{F3418F7F-9266-457E-A42C-24D584063794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsBasket.Infrastructure", "TicketsBasket.Infrastructure\TicketsBasket.Infrastructure.csproj", "{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{F3418F7F-9266-457E-A42C-24D584063794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3418F7F-9266-457E-A42C-24D584063794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3418F7F-9266-457E-A42C-24D584063794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{3D148BCC-D036-416E-9B56-EF3DA07B460F} = {79DFE06F-29B3-465E-91A7-3E2BE59DA7E6}
 		{7D6945FC-F59D-4540-8D37-4A6742AB60FC} = {79DFE06F-29B3-465E-91A7-3E2BE59DA7E6}
 		{F3418F7F-9266-457E-A42C-24D584063794} = {79DFE06F-29B3-465E-91A7-3E2BE59DA7E6}
+		{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D} = {79DFE06F-29B3-465E-91A7-3E2BE59DA7E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F03B5F7B-8790-452D-9489-DF797A189A75}

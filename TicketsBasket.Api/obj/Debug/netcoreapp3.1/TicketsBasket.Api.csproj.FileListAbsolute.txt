@@ -94,3 +94,5 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\SQLiteDB\Models.db
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Repositories.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Repositories.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Infrastructure.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Infrastructure.pdb

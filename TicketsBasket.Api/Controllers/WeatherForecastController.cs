@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using TicketsBasket.Infrastructure.Options;
 
 namespace TicketsBasket.Api.Controllers
 {
@@ -19,10 +21,12 @@ namespace TicketsBasket.Api.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IdentityOptions _identity;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IdentityOptions identity)
         {
             _logger = logger;
+            _identity = identity;
         }
 
         [HttpGet]

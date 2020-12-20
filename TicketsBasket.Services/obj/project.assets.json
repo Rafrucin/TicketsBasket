@@ -2233,6 +2233,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "TicketsBasket.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TicketsBasket.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketsBasket.Infrastructure.dll": {}
+        }
+      },
       "TicketsBasket.Models/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -7637,6 +7647,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "TicketsBasket.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TicketsBasket.Infrastructure/TicketsBasket.Infrastructure.csproj",
+      "msbuildProject": "../TicketsBasket.Infrastructure/TicketsBasket.Infrastructure.csproj"
+    },
     "TicketsBasket.Models/1.0.0": {
       "type": "project",
       "path": "../TicketsBasket.Models/TicketsBasket.Models.csproj",
@@ -7655,6 +7670,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "TicketsBasket.Infrastructure >= 1.0.0",
       "TicketsBasket.Models >= 1.0.0",
       "TicketsBasket.Repositories >= 1.0.0",
       "TicketsBasket.Shared >= 1.0.0"
@@ -7692,6 +7708,9 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Infrastructure\\TicketsBasket.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Infrastructure\\TicketsBasket.Infrastructure.csproj"
+            },
             "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Models\\TicketsBasket.Models.csproj": {
               "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Models\\TicketsBasket.Models.csproj"
             },

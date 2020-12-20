@@ -1761,6 +1761,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "TicketsBasket.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TicketsBasket.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketsBasket.Infrastructure.dll": {}
+        }
+      },
       "TicketsBasket.Models/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -6331,6 +6341,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "TicketsBasket.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TicketsBasket.Infrastructure/TicketsBasket.Infrastructure.csproj",
+      "msbuildProject": "../TicketsBasket.Infrastructure/TicketsBasket.Infrastructure.csproj"
+    },
     "TicketsBasket.Models/1.0.0": {
       "type": "project",
       "path": "../TicketsBasket.Models/TicketsBasket.Models.csproj",
@@ -6346,6 +6361,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Authentication.AzureADB2C.UI >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
+      "TicketsBasket.Infrastructure >= 1.0.0",
       "TicketsBasket.Models >= 1.0.0",
       "TicketsBasket.Repositories >= 1.0.0"
     ]
@@ -6382,6 +6398,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Infrastructure\\TicketsBasket.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Infrastructure\\TicketsBasket.Infrastructure.csproj"
+            },
             "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Models\\TicketsBasket.Models.csproj": {
               "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Models\\TicketsBasket.Models.csproj"
             },
