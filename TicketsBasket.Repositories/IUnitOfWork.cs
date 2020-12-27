@@ -8,7 +8,7 @@ namespace TicketsBasket.Repositories
 {
     public interface IUnitOfWork
     {
-        IUserProfilesRepository userProfiles { get; }
+        IUserProfilesRepository UserProfiles { get; }
         //..other repos go here
 
         Task CommitChangesAsync();
@@ -17,9 +17,9 @@ namespace TicketsBasket.Repositories
 
     public class EUnitOfWork : IUnitOfWork
     {
-        private readonly ApplicationDbContext _db;
+        private readonly ApplicationDbContext _db; 
 
-        public IUserProfilesRepository userProfiles => throw new NotImplementedException();
+
 
         public EUnitOfWork(ApplicationDbContext db)
         {

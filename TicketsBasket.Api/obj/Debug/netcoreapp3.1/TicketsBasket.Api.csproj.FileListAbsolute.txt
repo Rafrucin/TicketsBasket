@@ -96,3 +96,7 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Repositories.pdb
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Infrastructure.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Infrastructure.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Services.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Shared.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Services.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\netcoreapp3.1\TicketsBasket.Shared.pdb

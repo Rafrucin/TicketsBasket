@@ -29,6 +29,7 @@
           "TicketsBasket.Infrastructure": "1.0.0",
           "TicketsBasket.Models": "1.0.0",
           "TicketsBasket.Repositories": "1.0.0",
+          "TicketsBasket.Services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1652,7 +1653,8 @@
       "TicketsBasket.Models/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1",
+          "TicketsBasket.Shared": "1.0.0"
         },
         "runtime": {
           "TicketsBasket.Models.dll": {}
@@ -1670,6 +1672,28 @@
         },
         "compile": {
           "TicketsBasket.Repositories.dll": {}
+        }
+      },
+      "TicketsBasket.Services/1.0.0": {
+        "dependencies": {
+          "TicketsBasket.Infrastructure": "1.0.0",
+          "TicketsBasket.Models": "1.0.0",
+          "TicketsBasket.Repositories": "1.0.0",
+          "TicketsBasket.Shared": "1.0.0"
+        },
+        "runtime": {
+          "TicketsBasket.Services.dll": {}
+        },
+        "compile": {
+          "TicketsBasket.Services.dll": {}
+        }
+      },
+      "TicketsBasket.Shared/1.0.0": {
+        "runtime": {
+          "TicketsBasket.Shared.dll": {}
+        },
+        "compile": {
+          "TicketsBasket.Shared.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4083,6 +4107,16 @@
       "sha512": ""
     },
     "TicketsBasket.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketsBasket.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketsBasket.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6,6 +6,7 @@ namespace TicketsBasket.Shared.Models
 {
     public class UserProfileDetail
     {
+        public string Id { get; set; }
 
         public string FirstName { get; set; }
 

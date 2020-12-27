@@ -1623,10 +1623,16 @@
       "TicketsBasket.Models/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1",
+          "TicketsBasket.Shared": "1.0.0"
         },
         "runtime": {
           "TicketsBasket.Models.dll": {}
+        }
+      },
+      "TicketsBasket.Shared/1.0.0": {
+        "runtime": {
+          "TicketsBasket.Shared.dll": {}
         }
       }
     }
@@ -2590,6 +2596,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "TicketsBasket.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketsBasket.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -12,7 +12,8 @@ using System.Threading.Tasks;
 using TicketsBasket.Infrastructure.Options;
 using TicketsBasket.Models.Data;
 using TicketsBasket.Repositories;
-
+using TicketsBasket.Services;
+using Microsoft.Identity.Web;
 
 namespace TicketsBasket.Api.Extensions
 {
@@ -40,8 +41,7 @@ namespace TicketsBasket.Api.Extensions
 
         public static void AddB2CAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddAuthentication(AzureADB2CDefaults.BearerAuthenticationScheme)
-               .AddAzureADB2CBearer(options => configuration.Bind("AzureAdB2C", options));
+            services.AddMicrosoftIdentityWebApiAuthentication( configuration, "AzureAdB2C");
         }
 
         public static void AddApplicationDatabaseContext (this IServiceCollection services, IConfiguration configuration)
@@ -69,6 +69,11 @@ namespace TicketsBasket.Api.Extensions
         public static void AddUnitOfWork (this IServiceCollection services)
         {
             services.AddScoped<IUnitOfWork, EUnitOfWork>();
+        }
+
+        public static void AddBusinessServices(this IServiceCollection services)
+        {
+            services.AddScoped<IUserProfilesService, UserProfilesServices>();
         }
     }
 }

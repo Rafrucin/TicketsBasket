@@ -14,3 +14,5 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Services\obj\Debug\netstan
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Services\obj\Debug\netstandard2.1\TicketsBasket.Services.pdb
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Services\bin\Debug\netstandard2.1\TicketsBasket.Shared.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Services\bin\Debug\netstandard2.1\TicketsBasket.Shared.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Services\bin\Debug\netstandard2.1\TicketsBasket.Infrastructure.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Services\bin\Debug\netstandard2.1\TicketsBasket.Infrastructure.pdb

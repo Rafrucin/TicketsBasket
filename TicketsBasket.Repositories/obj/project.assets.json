@@ -2238,13 +2238,24 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SQLserver": "5.0.1",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1",
+          "TicketsBasket.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TicketsBasket.Models.dll": {}
         },
         "runtime": {
           "bin/placeholder/TicketsBasket.Models.dll": {}
+        }
+      },
+      "TicketsBasket.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TicketsBasket.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketsBasket.Shared.dll": {}
         }
       }
     }
@@ -7618,6 +7629,11 @@
       "type": "project",
       "path": "../TicketsBasket.Models/TicketsBasket.Models.csproj",
       "msbuildProject": "../TicketsBasket.Models/TicketsBasket.Models.csproj"
+    },
+    "TicketsBasket.Shared/1.0.0": {
+      "type": "project",
+      "path": "../TicketsBasket.Shared/TicketsBasket.Shared.csproj",
+      "msbuildProject": "../TicketsBasket.Shared/TicketsBasket.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -10,3 +10,5 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\net
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.csproj.CopyComplete
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\obj\Debug\netstandard2.1\TicketsBasket.Repositories.pdb
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\bin\Debug\netstandard2.1\TicketsBasket.Shared.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Repositories\bin\Debug\netstandard2.1\TicketsBasket.Shared.pdb

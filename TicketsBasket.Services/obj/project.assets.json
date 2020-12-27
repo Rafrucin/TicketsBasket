@@ -2248,7 +2248,8 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SQLserver": "5.0.1",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1",
+          "TicketsBasket.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TicketsBasket.Models.dll": {}
@@ -2272,7 +2273,7 @@
       },
       "TicketsBasket.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/TicketsBasket.Shared.dll": {}
         },

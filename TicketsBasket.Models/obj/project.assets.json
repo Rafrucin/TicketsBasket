@@ -2232,6 +2232,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "TicketsBasket.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TicketsBasket.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketsBasket.Shared.dll": {}
+        }
       }
     }
   },
@@ -7599,12 +7609,18 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "TicketsBasket.Shared/1.0.0": {
+      "type": "project",
+      "path": "../TicketsBasket.Shared/TicketsBasket.Shared.csproj",
+      "msbuildProject": "../TicketsBasket.Shared/TicketsBasket.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "Microsoft.EntityFrameworkCore.SQLserver >= 5.0.1",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.1"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.1",
+      "TicketsBasket.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7638,7 +7654,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj": {
+              "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

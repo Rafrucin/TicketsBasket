@@ -31,7 +31,11 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj": {
+                "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -104,6 +108,64 @@
                 "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Models\\TicketsBasket.Models.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj",
+        "projectName": "TicketsBasket.Shared",
+        "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj",
+        "packagesPath": "C:\\Users\\Raf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
