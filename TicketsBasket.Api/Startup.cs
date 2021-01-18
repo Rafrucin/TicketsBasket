@@ -15,8 +15,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TicketsBasket.Models.Data;
 using TicketsBasket.Api.Extensions;
-
-
+using TicketsBasket.Api.Options;
 
 namespace TicketsBasket.Api
 {
@@ -47,6 +46,8 @@ namespace TicketsBasket.Api
             services.AddControllers();
 
             services.AddUnitOfWork();
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +57,16 @@ namespace TicketsBasket.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //app.UseSwagger();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI( swagger=>
+            {
+                swagger.SwaggerEndpoint("/swagger/v1/swagger.json", "TicketsBasket API V1.0");
+            }
+            );
 
             app.UseHttpsRedirection();
 

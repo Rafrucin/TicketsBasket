@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsBasket.Services", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsBasket.Shared", "TicketsBasket.Shared\TicketsBasket.Shared.csproj", "{F3418F7F-9266-457E-A42C-24D584063794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsBasket.Infrastructure", "TicketsBasket.Infrastructure\TicketsBasket.Infrastructure.csproj", "{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsBasket.Infrastructure", "TicketsBasket.Infrastructure\TicketsBasket.Infrastructure.csproj", "{BFE1BAE4-73BF-4C64-8515-9DAF35B2D04D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

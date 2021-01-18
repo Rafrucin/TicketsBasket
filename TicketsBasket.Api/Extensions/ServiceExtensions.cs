@@ -75,5 +75,8 @@ namespace TicketsBasket.Api.Extensions
         {
             services.AddScoped<IUserProfilesService, UserProfilesServices>();
         }
+
+
+
     }
 }

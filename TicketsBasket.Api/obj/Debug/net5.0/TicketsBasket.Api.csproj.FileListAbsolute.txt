@@ -96,3 +96,7 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\obj\Debug\net5.0\Ticke
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\obj\Debug\net5.0\ref\TicketsBasket.Api.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\obj\Debug\net5.0\TicketsBasket.Api.pdb
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\obj\Debug\net5.0\TicketsBasket.Api.genruntimeconfig.cache
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
