@@ -83,6 +83,10 @@
               "target": "Package",
               "version": "[1.4.1, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -196,6 +200,9 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Infrastructure\\TicketsBasket.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Infrastructure\\TicketsBasket.Infrastructure.csproj"
+              },
               "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj": {
                 "projectPath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Shared\\TicketsBasket.Shared.csproj"
               }
@@ -354,6 +361,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -412,6 +425,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

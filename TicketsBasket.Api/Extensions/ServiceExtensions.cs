@@ -28,10 +28,8 @@ namespace TicketsBasket.Api.Extensions
                 var identityOptions = new IdentityOptions();
 
                 if (context.User.Identity.IsAuthenticated)
-                {
-                    string userId = context.User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-                    identityOptions.UserId = userId;
+                {                    
+                    identityOptions.User = context.User;
                 }
 
                 return identityOptions;

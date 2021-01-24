@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Uy1KsQGIhNZJTMApzvT7pT2q2h/ym7jvXnf2/lB+ieom+7DO+Brg8Hz/qd+pojFbJwPpdKBwGxOee/4AnzTUSQ==",
+  "dgSpecHash": "e1/1MOVOB7zlVO2XdmkwOnxPIsmWsiUymzgNHhTxkIw29CDdSnxxNxLq6/60glXhQZB+2Vk91s/U7TXavDugkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Repositories\\TicketsBasket.Repositories.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raf\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.2\\microsoft.aspnetcore.http.features.5.0.2.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -86,6 +87,7 @@
     "C:\\Users\\Raf\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Raf\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",

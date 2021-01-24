@@ -100,3 +100,6 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Micro
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Newtonsoft.Json.dll

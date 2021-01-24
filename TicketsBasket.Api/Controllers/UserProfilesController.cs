@@ -6,6 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TicketsBasket.Services;
+using TicketsBasket.Shared.Models;
+using TicketsBasket.Shared.Requests;
+using TicketsBasket.Shared.Responses;
 
 namespace TicketsBasket.Api.Controllers
 {
@@ -21,6 +24,8 @@ namespace TicketsBasket.Api.Controllers
             _userProfiles = userProfiles;
         }
 
+        [ProducesResponseType(200, Type = typeof(OperationResponse<UserProfileDetail>))]
+        [ProducesResponseType(404)]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -32,6 +37,20 @@ namespace TicketsBasket.Api.Controllers
             }
 
             return NotFound();
+        }
+
+        [ProducesResponseType(200, Type = typeof(OperationResponse<UserProfileDetail>))]
+        [ProducesResponseType(400, Type = typeof(OperationResponse<UserProfileDetail>))]
+        [HttpPost]
+        public async Task<IActionResult> Post([FromForm]CreateProfileRequest model)
+        {
+            var result = await _userProfiles.CreateProfileAsync(model);
+            if (result.IsSuccess)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result);
         }
 
     }

@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Text;
 
 namespace TicketsBasket.Infrastructure.Options
 {
     public class IdentityOptions
     {
-        public string UserId { get; set; }
+        public string UserId => User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        public ClaimsPrincipal User { get; set; }
         // todo: other identity props
     }
 }
