@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "iwFoi6b+J5HL5dlpmLGhLHyTk72nUKP3GI0Tdmj45L1nfycqebFdbC/iOI+HjrUI52NGvY058rak8DfrCt0RMA==",
+  "dgSpecHash": "hclFmuvTJkbY8ckm19x9faadm15Uks9EuNK4gBmyhHzxjfqsHFIjhrtcSbaoTMnO0NiGJO32QMaEF6muctsR2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Api\\TicketsBasket.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Raf\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
+    "C:\\Users\\Raf\\.nuget\\packages\\azure.core\\1.8.1\\azure.core.1.8.1.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\azure.identity\\1.2.3\\azure.identity.1.2.3.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\azure.security.keyvault.certificates\\4.1.0\\azure.security.keyvault.certificates.4.1.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\azure.security.keyvault.secrets\\4.1.0\\azure.security.keyvault.secrets.4.1.0.nupkg.sha512",
+    "C:\\Users\\Raf\\.nuget\\packages\\azure.storage.blobs\\12.8.0\\azure.storage.blobs.12.8.0.nupkg.sha512",
+    "C:\\Users\\Raf\\.nuget\\packages\\azure.storage.common\\12.7.0\\azure.storage.common.12.7.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

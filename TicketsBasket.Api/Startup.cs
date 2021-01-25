@@ -48,6 +48,8 @@ namespace TicketsBasket.Api
             services.AddUnitOfWork();
 
             services.AddSwaggerGen();
+
+            services.AddAzureStorageOptions(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

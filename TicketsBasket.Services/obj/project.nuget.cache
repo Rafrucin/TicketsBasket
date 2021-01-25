@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5Tf7W9CJjb5OD3WA8QOOwK5SYVdXNNjyLKxMdaxiwm97Ca27815LXTGCazYtaOG1zXc7ZyGjpcUl2ntAzUgOog==",
+  "dgSpecHash": "K6QtAmOXm2223I4g2vy06myy65rCiCYs225LF8C/ALV6EUZRSP2XwmFbEooSpdqW9bWnjJfPvEA6PDBfoKXtFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raf\\source\\repos\\TicketsBasket\\TicketsBasket.Services\\TicketsBasket.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raf\\.nuget\\packages\\azure.core\\1.8.1\\azure.core.1.8.1.nupkg.sha512",
+    "C:\\Users\\Raf\\.nuget\\packages\\azure.storage.blobs\\12.8.0\\azure.storage.blobs.12.8.0.nupkg.sha512",
+    "C:\\Users\\Raf\\.nuget\\packages\\azure.storage.common\\12.7.0\\azure.storage.common.12.7.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.2\\microsoft.aspnetcore.http.features.5.0.2.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Raf\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
