@@ -14,6 +14,7 @@ using TicketsBasket.Models.Data;
 using TicketsBasket.Repositories;
 using TicketsBasket.Services;
 using Microsoft.Identity.Web;
+using TicketsBasket.Services.Storage;
 
 namespace TicketsBasket.Api.Extensions
 {
@@ -77,6 +78,11 @@ namespace TicketsBasket.Api.Extensions
         public static void AddAzureStorageOptions(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped(sp => configuration.GetSection("AzureStorageSetting").Get<AzureStorageOptions>());
+        }
+
+        public static void AddInfrastuctureServices (this IServiceCollection services)
+        {
+            services.AddScoped<IStorageService, AzureBlobStorageService>();
         }
 
     }

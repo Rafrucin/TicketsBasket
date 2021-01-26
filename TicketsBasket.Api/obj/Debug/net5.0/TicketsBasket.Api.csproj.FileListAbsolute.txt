@@ -103,3 +103,5 @@ C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Swash
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Azure.Storage.Blobs.dll
+C:\Users\Raf\source\repos\TicketsBasket\TicketsBasket.Api\bin\Debug\net5.0\Azure.Storage.Common.dll

@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "TicketsBasket.Services/1.0.0": {
         "dependencies": {
+          "Azure.Storage.Blobs": "12.8.0",
           "Newtonsoft.Json": "12.0.3",
           "TicketsBasket.Infrastructure": "1.0.0",
           "TicketsBasket.Models": "1.0.0",
@@ -17,6 +18,46 @@
         },
         "runtime": {
           "TicketsBasket.Services.dll": {}
+        }
+      },
+      "Azure.Core/1.8.1": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Diagnostics.DiagnosticSource": "5.0.0",
+          "System.Memory": "4.5.4",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Text.Json": "5.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Core.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.800.121.6102"
+          }
+        }
+      },
+      "Azure.Storage.Blobs/12.8.0": {
+        "dependencies": {
+          "Azure.Storage.Common": "12.7.0",
+          "System.Text.Json": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "12.8.0.0",
+            "fileVersion": "12.800.21.6201"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.7.0": {
+        "dependencies": {
+          "Azure.Core": "1.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.7.0.0",
+            "fileVersion": "12.700.21.6201"
+          }
         }
       },
       "Microsoft.AspNetCore.Http.Features/5.0.2": {
@@ -1660,6 +1701,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Azure.Core/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BoGOCcdRa4ngAxBcyyndauFWgId6/SETDJnd9+4iHtXZ9JsVA4hs8pvK0H2ml4MHWwaYPmpepd70reAUm2u52g==",
+      "path": "azure.core/1.8.1",
+      "hashPath": "azure.core.1.8.1.nupkg.sha512"
+    },
+    "Azure.Storage.Blobs/12.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LrnOTVdRk2n8obV8Z0R7ZpuFd6SlyxPiX4+M4TyCKbFEJlTPAStewqrXHr4JMDJYzn+b5sr1CMsz75CoHYabhg==",
+      "path": "azure.storage.blobs/12.8.0",
+      "hashPath": "azure.storage.blobs.12.8.0.nupkg.sha512"
+    },
+    "Azure.Storage.Common/12.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w2hcSk80NbkUIvb0x81zYAvpx7RzhRVJjWterjYpEI9DRNLoqxap3b7LOSnLfcA5jgSVaeKlOZzneUrXx7+wnA==",
+      "path": "azure.storage.common/12.7.0",
+      "hashPath": "azure.storage.common.12.7.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Http.Features/5.0.2": {
       "type": "package",
